@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pomodoro Clock</title>  
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <section class="main_container">
+
+            <!-- first row title -->
+
+            <div class="first_div">
+                <h2 class="first">Break</h2>
+                <h2 class="first">Counter</h2>
+                <h2 class="first">Work</h2>
+            </div>
+
+            <!-- second row timer -->
+
+            <div class="second_div">
+                
+                <!-- break -->
+                <div class="second"> 
+                    <p id="break_minutes"> 5 </p>                  
+                    <p>:</p>
+                    <p id="break_seconds"> 00 </p>
+                </div>
+
+                <!-- counter -->
+                <div class="second">
+                    <p id="counter" > 0 </p>
+                </div>
+
+                <!-- work -->
+                <div class="second">
+                    <p id="work_minutes"> 25 </p>                  
+                    <p>:</p>
+                    <p id="work_seconds"> 00 </p>
+                </div>
+            </div>
+
+            <!-- third row buttons -->
+
+            <div class="third_div">
+                <button id="start" class="btn">Start</button>
+                <button id="pause" class="btn">Pause</button>
+                <button id="restart" class="btn">Reset</button>
+            </div>
+
+        </section>
+        <script src="./js.js"></script>
+    </body>
+
+</html>
